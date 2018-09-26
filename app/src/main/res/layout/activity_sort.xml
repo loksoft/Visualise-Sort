@@ -15,29 +15,24 @@
         android:hint="@string/list_size"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
         android:padding="10dp"/>
     <Button
         android:id="@+id/button_sort"
         android:layout_below="@id/n_elements"
         android:layout_width="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:text="@string/sort"/>
-
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        android:layout_below="@id/button_sort"
-        android:layout_width="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:text="@string/generate_random_numbers"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/elements_list"
-        android:layout_below="@id/progress_bar"
+        android:layout_below="@id/button_sort"
         android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
     </android.support.v7.widget.RecyclerView>

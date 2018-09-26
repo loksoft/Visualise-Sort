@@ -4,5 +4,6 @@
     <string name="bucket_sort">Bucket Sort</string>
     <string name="list_size">Enter n of elements to sort</string>
     <string name="sort">Sort</string>
+    <string name="generate_random_numbers">Generate Random numbers</string>
 
 </resources>

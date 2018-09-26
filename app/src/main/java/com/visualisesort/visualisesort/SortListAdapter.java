@@ -29,7 +29,7 @@ public class SortListAdapter extends RecyclerView.Adapter<SortListAdapter.SortVi
     @Override
     public void onBindViewHolder(@NonNull SortListAdapter.SortViewHolder holder, int position) {
         Integer dataElement = list.get(position);
-        holder.listItem.setText(dataElement.toString());
+        holder.listItem.setText(dataElement.toString()+" ");
     }
 
     @Override

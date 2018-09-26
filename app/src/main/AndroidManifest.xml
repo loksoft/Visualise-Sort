@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SortActivity"></activity>
+        <activity android:name=".SortActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
     </application>
 
 </manifest>
