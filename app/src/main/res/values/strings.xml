@@ -2,8 +2,11 @@
     <string name="app_name">Visualise Sort</string>
     <string name="heap_sort">Heap Sort</string>
     <string name="bucket_sort">Bucket Sort</string>
-    <string name="list_size">Enter n of elements to sort</string>
+    <string name="list_size">Enter n elements to sort</string>
     <string name="sort">Sort</string>
     <string name="generate_random_numbers">Generate Random numbers</string>
+    <string name="start">Select any sort method to start with Visualise Sort App</string>
+    <string name="success">Elements sorted using</string>
+
 
 </resources>
