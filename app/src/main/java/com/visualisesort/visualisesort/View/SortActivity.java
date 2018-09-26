@@ -68,7 +68,8 @@ public class SortActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-                if (s.length() > 0 && (Integer.parseInt(nElementsEdit.getText().toString()))<= 15){
+
+                if (s.length() > 0 &&Integer.parseInt(nElementsEdit.getText().toString()) > 0 && (Integer.parseInt(nElementsEdit.getText().toString()))<= 15){
                     generateElementsButton.setVisibility(View.VISIBLE);
                 }else
                 {
@@ -96,7 +97,7 @@ public class SortActivity extends AppCompatActivity implements View.OnClickListe
         {
             int n = Integer.parseInt(nElementsEdit.getText().toString());
             list = SortRepository.getRandomNumbers(n);
-            if (list!=null){
+            if (list!=null && n >0){
                 sortListAdapter = new SortListAdapter(SortActivity.this,list);
                 sortButton.setVisibility(View.VISIBLE);
                 nElementsEdit.setVisibility(View.INVISIBLE);
